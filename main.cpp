@@ -36,7 +36,7 @@ void initMenu(std::string str)
 void initText(sf::Text &text, const std::string &str, int x, int y, int size = 24, sf::Color textColor = sf::Color::White)
 {
     text.setString(str);
-    text.setFont(font);t
+    text.setFont(font);
     text.setFillColor(textColor);
     text.setCharacterSize(size);
     text.setPosition(x, y);
